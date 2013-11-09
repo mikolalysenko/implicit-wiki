@@ -1,0 +1,25 @@
+{
+  "name": "implicit-wiki",
+  "version": "0.0.0",
+  "description": "Implicit surface editing, sharing and printing",
+  "main": "index.js",
+  "dependencies": {
+    "level": "~0.17.0-1",
+    "leveldown": "~0.9.2",
+    "levelup": "~0.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/implicit-wiki.git"
+  },
+  "author": "Mikola Lysenko",
+  "license": " ",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/implicit-wiki/issues"
+  }
+}
